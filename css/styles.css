@@ -1,0 +1,443 @@
+body
+{font-size:16px;
+	color: #fff;
+	background-color:#404040;
+font-family: 'PT Sans Narrow', sans-serif;}
+
+* {
+  box-sizing: border-box;
+}
+.navbar-brand
+{color: #ff0;}
+
+a { color: inherit; } 
+a:hover {color: inherit;}
+h1{position: center;
+color: #f0f5f5;
+font-size: 1.4em;
+font-family: 'Balsamiq Sans', cursive;
+margin-top: 30px;
+margin-left:15px;}
+
+		      /* Banner */
+button{
+	font-family: 'Alatsi', sans-serif;
+	color: #000;
+}
+        @media only screen and (min-width: 992px)
+        {
+.logo { 
+        text-align:center; 
+        position: absolute; 
+        font-size: 70%; 
+        top: 71%; 
+        left: 15%; 
+        color: white; }
+
+
+.logo h2{font-size: 1.9em;
+	padding: 10px 25px; 
+	background-color: #fff; 
+}
+
+.logo button a:hover, .logo button a:focus{
+			text-decoration: none;}
+
+         .logo button { 
+        border: 2px 2px 2px 2px; 
+        outline: 0; 
+        color: #000;
+        font-size: 20px;
+        display: inline-block; 
+        padding: 8px 15px; 
+        color: black; 
+        background-color: #ddd; 
+        text-align: center; 
+		        cursor: pointer;}}
+
+@media only screen and (max-width: 991px)
+{.logo { 
+        text-align:center; 
+        position: absolute;
+        font-size: 60%; 
+        top: 70%; 
+        left: 10%; 
+        color: white; }
+
+.logo h2{font-size: 1.5em;
+	padding: 8px 15px; 
+	background-color: #fff; 
+}
+
+         .logo button { 
+        border: 2px 2px 2px 2px; 
+        outline: 0; 
+        font-size: 15px;
+        display: inline-block; 
+        padding: 8px 15px; 
+        color: black; 
+        background-color: #ddd; 
+        text-align: center; 
+		        cursor: pointer;}
+ .logo button a:hover, .logo button a:focus{
+			text-decoration: none;}}
+
+@media only screen and (max-width: 768px)
+{.logo { 
+        text-align:center; 
+        position: absolute; 
+        font-size: 60%; 
+        top: 78%; 
+        left: 40%; 
+        color: white; }
+
+
+
+.logo h2{display: none;
+	font-size: 1.3em;
+	padding: 8px 15px; 
+	background-color: #fff; 
+}
+
+         .logo button { 
+        border: 2px 2px 2px 2px; 
+        outline: 0; 
+        font-size: 15px;
+        display: inline-block; 
+        padding: 7px 10px; 
+        color: black; 
+        background-color: #ddd; 
+        text-align: center; 
+		        cursor: pointer;}
+		    .logo button a:hover, .logo button a:focus{
+			text-decoration: none;}}
+
+@media only screen and (max-width: 600px)
+{.logo { 
+        text-align:center; 
+        position: absolute; 
+        font-size: 60%; 
+        top: 55%; 
+        left: 40%; 
+        color: white; }
+
+
+
+.logo h2{display: none;
+	font-size: 1.3em;
+	padding: 8px 15px; 
+	background-color: #fff; 
+}
+
+         .logo button { 
+        border: 2px 2px 2px 2px; 
+        outline: 0; 
+        font-size: 15px;
+        display: inline-block; 
+        padding: 7px 10px; 
+        color: black; 
+        background-color: #ddd; 
+        text-align: center; 
+		        cursor: pointer;}
+
+		    .logo button a:hover, .logo button a:focus{
+			text-decoration: none;}}
+@media only screen and (max-width: 600px){}
+
+		      /* Banner ends */
+
+.nav-item
+{font-size:1.2em;
+font-family: 'PT Sans Narrow', sans-serif;
+font-weight: 1.1em }
+
+.nav-item a:hover
+{
+	font-weight: bold;
+}
+.jumbotron-fluid{
+margin-top:45px;
+background-color: #595959;
+border-width: 15px 15px 15px 15px;
+}
+
+
+.myslides
+{
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+
+h2
+{font-size: 2.3em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 3px;
+	color: #0d0d0d;
+font-family: 'Alatsi', sans-serif;
+font-family: 'Rasa', serif;
+}
+
+		      /* Figures*/
+@media only screen and (min-width: 769px){
+img.pic{
+	width:180px;
+	height: 180px;
+	margin-top: 5px;
+margin-left: 63px;
+margin-right: 63px;}
+h3{ color: #1a1a1a;
+	font-size: 1.6em;
+	text-align: center;
+}
+
+}
+@media only screen and (max-width: 768px){
+	img.pic{
+		align-items: center;
+	width:100px;
+	height: 100px;
+	margin-top: 5px;
+margin-left: 45px;
+margin-right: 45px;}
+}
+
+h3{ color: #1a1a1a;
+	font-size: 1.4em;
+	text-align: center;
+}
+}
+	img{
+		margin-right: 15px;
+		}      /* Figures end*/
+/* About Us*/
+
+p{
+	font-size: 1.4em;
+	font-family: font-family: 'Libre Franklin', sans-serif;
+	text-align: center;
+	margin-top: 25px;
+	color:#1a1a1a;
+}
+
+p.column{
+	background-image: url(https://www.clker.com/cliparts/Q/7/J/K/1/d/house-grey-md.png);
+	background-repeat:no-repeat;
+	background-size: 96% 96%;
+	width:80%;
+	font-weight: bold;
+	height: auto;
+	margin-top: 20%;
+	font-size: 1.5em;
+}
+@media only screen and (max-width: 768px)
+{.column{width:100%;}
+p.column{ margin-left:10%; 
+		margin-top: 10%;
+	font-size: 1.4em;
+	}}
+
+
+.imagedesign
+{ background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+/* About Us Ends */
+/* Designs Start */
+h3.select a:hover
+{font-weight: bolder;}
+
+img.designs{
+	width:270px;
+	height: 240px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 5px;;}
+h3{ color: #1a1a1a;
+	font-size: 1.6em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Designs end */
+/* Footer starts */
+#footer
+{background-color: #0d0d0d;
+	position: fixed;
+width: 100%;
+  left: 0px;
+  bottom: 0px;}
+
+footer{
+	position: absolute; top:60%; background-color: #262626; width:100%; 
+	padding-top: 10px; padding-left: 10px; padding-right: 10px; padding-bottom:40px; margin-top: 30px; box-sizing: border-box;
+}
+
+span{
+	font-weight: 2px;
+	font-size: 1.2em;
+}
+
+ #bottomfooter
+ { color: #f2f2f2;
+ 	opacity: 0.8;
+ 	font-size: 1.1em;
+ 	text-align: left;
+ }
+
+#copyr
+{
+	color: #f2f2f2;
+ 	opacity: 0.8;
+ 	font-size: 1em;
+ 	text-align: center;
+ 	background-color: #1a1a1a;
+ 	width: 100%;
+}
+@media only screen and (min-width: 769px){
+ .fa {border-radius: 50%;
+  padding: 15px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+   background: #333333;
+  color: #f2f2f2;
+  border-radius: 50%;
+  border-color: #f2f2f2;
+}
+
+.fa a:hover {
+    opacity: 0.7;
+}
+}
+
+@media only screen and (max-width: 768px){
+	.fa {border-radius: 50%;
+  padding: 10px;
+  font-size: 15px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 1px 3px;
+   background: #333333;
+  color: #f2f2f2;
+  border-radius: 50%
+  border-color: #f2f2f2
+}
+
+.fa a:hover {
+    opacity: 0.7;
+}
+}
+
+/* footers end */
+
+
+/* DESIGNS NEXT PAGE STARTS */
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://cdn.home-designing.com/wp-content/uploads/2019/04/living-room-pendant-light.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 60%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  overflow: hidden;
+}
+
+@keyframes expand
+{
+from {width:60%;}
+to {width: 100%;}
+}
+
+.collapsible:hover {
+  background-color: #555;  
+  animation-name: expand;
+  animation-duration: 2s;
+
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+  width: 100%;
+  overflow: auto;
+  max-height: 250px;
+}
+
+.content
+{
+	background-color: #666666 ; width: 100%; max-height:0;
+  overflow: hidden; transition: max-height 0.2s ease-out;
+}
+
+@media only screen and (min-width: 771px) and (max-width: 925px) 
+{
+img#gallery{
+	width: 180px;
+	height: 160px;
+	margin-right: 15px;
+	border-radius: 18px;
+}
+}
+@media only screen and (min-width: 925px)
+{
+img#gallery{
+	width: 260px;
+	height: 250px;
+	margin-right: 20px;
+	border-radius: 25px;
+}
+}
+
+@media only screen and (max-width: 770px)
+{
+img#gallery{
+	width: 260px;
+	height: 250px;
+	margin-right: 20px;
+	border-radius: 25px;
+}
+}
+
+
+section#description
+{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+
+p#description
+{	box-sizing: content-box;
+	text-align: left;
+	border-right-style: solid;
+	border-width: 5px;
+	border-color: black;
+
+  background-color: #808080; /* For browsers that do not support gradients */
+  background-image: linear-gradient(-90deg, #808080 , #999999);
+}
+
+
